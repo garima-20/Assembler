@@ -1,0 +1,25 @@
+ ORG 100 
+ LD ADS D 
+ STA ADS D 
+ LD NBR D 
+ STA CTR D /
+ CLA /
+LOP, ADD PTR # /
+ SZ PTR /
+ SZ CTR /
+ BUN LOP /
+ HLT /
+ADS, HEX 150 /
+PTR, HEX 0 /
+NBR, DEC -6 /
+CTR, HEX 0 /
+SUM, HEX 0 /
+ ORG 150 /
+ DEC 75 /
+ DEC 82 /
+ DEC 92 /
+ DEC 34 /
+ DEC 22 /
+ DEC 54 /
+ END /
+ 
